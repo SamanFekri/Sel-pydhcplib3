@@ -15,19 +15,20 @@ en3_manpages = ['man/man3/pydhcplib.strlist.3.gz',
                 'man/man3/pydhcplib.ipv4.3.gz']
 en8_manpages = ['man/man8/pydhcp.8.gz']
 
-rawsocketmod = Extension( "pydhcplib._rawsocket",
-                         sources = ["networking/rawsocket.c", "networking/rawsocketmod.c"]
-)
+rawsocketmod = Extension("pydhcplib._rawsocket",
+                         sources=["networking/rawsocket.c",
+                                  "networking/rawsocketmod.c"]
+                         )
 
 setup(name='pydhcplib3',
-      version      = "0.0.1",
-      license      = "GPL v3",
-      description  = "DHCP client/server library",
-      author       = "Saman Fekri, Parham Alvani",
-      author_email = "samanf74@gmail.com",
-      url          = "https://github.com/SamanFekri/Sel-pydhcplib3",
-      packages     = ["pydhcplib"],
-      scripts      = ["scripts/pydhcp"],
-      ext_modules  = [],
-      data_files   = []
-)
+      version="0.0.1",
+      license="GPL v3",
+      description="DHCP client/server library",
+      author="Saman Fekri, Parham Alvani",
+      author_email="samanf74@gmail.com",
+      url="https://github.com/SamanFekri/Sel-pydhcplib3",
+      packages=["pydhcplib"],
+      scripts=["scripts/pydhcp"],
+      ext_modules=[],
+      data_files=[]
+      )
