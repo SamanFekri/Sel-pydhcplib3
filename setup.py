@@ -28,7 +28,7 @@ setup(name='pydhcplib3',
       author_email="samanf74@gmail.com",
       url="https://github.com/SamanFekri/Sel-pydhcplib3",
       packages=["pydhcplib"],
-      scripts=["scripts/pydhcp"],
+      # scripts=["scripts/pydhcp"],
       ext_modules=[],
       data_files=[]
       )
